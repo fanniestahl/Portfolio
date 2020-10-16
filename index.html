@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fannie Ståhl</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Mada' rel='stylesheet'>
+
+    <!-- CSS only Bootsrapt -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+    <!--Egen CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--Header, nav, banner-->
+
+    <header>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <!--Viktigt att lägga <a> före button och diven för att "brand" ska komma till vänster, annars tvärtom om man vil ha "brand" till höger-->
+            <a class="navbar-brand" href="">Fannie Ståhl</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <img src="/img/headerpur3.jpg" id="header">
+    </header>
+
+    <!------About------>
+    <div class="about-1" id="about">
+        <h1>About me</h1>
+        <hr>
+    </div>
+    <!------Grid, About------>
+    <div class="grid-about">
+        <div class="about-2">
+            <img class="Fannie" src="/img/fannie.jpg" alt="Fannie Ståhl" height="140" width="140">
+            <br>
+            <p><b>Fannie Ståhl</b>
+                <br>
+                Lomma, Skåne
+                <br><br>
+                High school engineer
+                <br>
+                <p>
+                    <b>I like:</b> Exercising
+                    <br>
+                    <b>I don´t like: </b>
+                    <br><br>
+                </p>
+                <a class="link" href="#contact">
+                    <span class=contact><b>Contact Me</b></span>
+                </a>
+        </div>
+        <div class="about-3">
+            <section>
+                <h2 class="purpl-h2">High school engineer</h2>
+                <p class="purpl-p">My name is Fannie Ståhl, I live in Lomma, Skåne. My biggest passion is computer
+                    games.</p>
+                <p>I´m 20 years old and right now I´m studying a fourth/extra year to become a high school engineer in
+                    software design.
+                    <br> Other than that I also work on some of the weekends, not technology realted though.
+                    <br> On my spare time I like to work out at the gym, play floorball, play computer games and
+                    sometimes stream while I play. </p>
+            </section>
+        </div>
+    </div>
+    <!--------------Education-------------->
+    <div class="education-over">
+        <img src="img/education2.png" alt="icon for education" height="50px" width="50px">
+        <h1>Education</h1>
+    </div>
+    <!--------------Education, list-------->
+    <div class="grid-education">
+        <div class="education">
+            <h4>Gymnasie - Informations och medieteknik</h4>
+            <section>
+                <ul class="ul-education">
+                    <li>Webbutveckling1</li>
+                    <li>Webbutveckling2</li>
+                    <li>Programmering1</li>
+                </ul>
+            </section>
+        </div>
+        <div class="education2">
+            <h4>YH - Project managment</h4>
+            <section>
+                <ul class="ul-education">
+                    <li>Project management, project models, group processes</li>
+                    <li>Project tools and documentation.</li>
+                </ul>
+            </section>
+        </div>
+        <div class="education3">
+            <h4>T4 - Mjukvaruteveckling</h4>
+            <section>
+                <ul class="ul-education">
+                    <li>Webbutveckling1</li>
+                    <li>Webbutveckling2</li>
+                    <li>Programmering2</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <!--Grid, Portfolio-->
+    <!------Project 1------>
+    <div class="project-1" id="portfolio">
+        <h1>Portfolio</h1>
+        <hr>
+    </div>
+    <div class="grid-project">
+        <div class="project-2">
+            <p class="business">Dan Collin</p>
+            <section>
+                <h2>Story game</h2>
+                <p>We were given the task to creat a storygame. We ran into a few issues, but we still had a finnished
+                    product in the given time. <br> We decided to make a "Pixel Dungeon" kind of game. The story was
+                    about a guy who stole from the king and needed to escape, and there is four ways that the story can
+                    end.</p>
+                <span class="code">Graphics</span>
+                <span class="code">Some JS</span>
+            </section>
+        </div>
+        <div class="project-3">
+            <a href="/projekt-2/index.html" target="_blank">
+                <img class="imgBox" src="img/dungeon.png" alt="Project 3" width="300" height="200">
+            </a>
+        </div>
+    </div>
+
+    <!------Project 2------>
+
+    <div class="grid-project2">
+        <div class="project2-1">
+            <p class="business">Dan Collin</p>
+            <section>
+                <h2>Arcade game</h2>
+                <p>Inormation om projektet bla bla bla. Där nere står vilka språk jag använt i projektet</p>
+                <span class="code">HTML</span>
+                <span class="code">CSS</span>
+                <span class="code">JS</span>
+            </section>
+        </div>
+        <div class="project2-2">
+            <a href="">
+                <img class="imgBox" src="img/programming.jpg" alt="Project 3" height="">
+            </a>
+        </div>
+    </div>
+    <!------Project 3------>
+    <div class="grid-project3">
+        <div class="project3-1">
+            <p class="business">Produktägare</p>
+            <section>
+                <h2>ProjektNamn</h2>
+                <p>Inormation om projektet bla bla bla. Där nere står vilka språk jag använt i projektet</p>
+                <span class="code">HTML</span>
+                <span class="code">CSS</span>
+            </section>
+        </div>
+        <div class="project3-2">
+            <a href="">
+                <img class="imgBox" src="img/programming.jpg" alt="Project 3" height="">
+            </a>
+        </div>
+    </div>
+
+
+    <!------Grid, Contact------>
+
+    <div class="grid-contact" id="contact">
+        <div class="contactinfo">
+            <h2>Contact Information</h2>
+            <ul class="contactinfo2">
+                <li class="contactinfo3"><img src="img/me.png" alt="Icon of a person" height="50px">
+                    <p>Fannie Ståhl</p>
+                </li>
+                <li class="contactinfo3"><img src="img/home.png" alt="Icon of a navigationmark" height="48px">
+                    <p>Lomma, Skåne</p>
+                </li>
+                <li class="contactinfo3"><img src="img/world.png" alt="Icon of the globe" height="48px">
+                    <p>Sweden</p>
+                </li>
+                <li class="contactinfo3"><img src="img/phone.jpg" alt="Icon of a phone" height="48px">
+                    <p>0727433323</p>
+                </li>
+                <li class="contactinfo3"><img src="img/mail.png" alt="Icon of a mail" height="48px">
+                    <p>fannie.stahl@gmail.com</p>
+                </li>
+            </ul>
+            <hr class="hr-contact">
+            <h3>Or contact me on...</h3>
+            <ul class="contact-icons">
+                <li class="contact-icons2"><a href="https://www.linkedin.com/in/fannie-st%C3%A5hl/" target="_blank"><img
+                            src="/img/linked.png" alt="LinkedIN icon" height="50px"></a></li>
+                <li class="contact-icons2"><a href=""><img src="/img/messenger.png" alt="Messenger icon"
+                            height="50px"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <p>© Copyright 2020 Fannie Ståhl</p>
+    </footer>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <script src="" async defer></script>
+</body>
+
+</html>
