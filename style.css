@@ -59,25 +59,17 @@ hr {
   background-color: rgb(183, 163, 253);
   border-radius: 15% 0 0 15%;
   padding: 5% 0;
-}
-
-#about-text {
-  background-color: rgba(183, 163, 253, 0.2);
-  border-radius: 0 15% 15% 0;
-  padding: 5%;
-}
-
-.about-2 {
   text-align: center;
-  color: white;
-  margin-left: 2%;
-  margin-top: 2%;
-  padding: 5%;
-  border-radius: 15px;
   background-image: url("/img/headerpur3.jpg");
   background-repeat: no-repeat;
   /* Do not repeat the image */
   background-size: cover;
+}
+
+#about-text {
+  background-color: rgba(183, 163, 253, 0.1);
+  border-radius: 0 15% 15% 0;
+  padding: 5%;
 }
 
 .contact {
@@ -90,16 +82,7 @@ hr {
 
 .Fannie {
   border-radius: 50%;
-}
-
-.about-3 {
-  margin-right: 1%;
-  margin-top: 2%;
-  padding: 10%;
-  text-align: center;
-  border-radius: 15px;
-  background-color: rgba(51, 41, 58, 0.02);
-  text-align: left;
+  margin-bottom: 2%;
 }
 
 .purpl-h2 {
@@ -114,35 +97,18 @@ hr {
   text-align: center;
 }
 
-.grid-about {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 10%;
-}
-
 /*------------Education-------*/
 
 .education-over {
   text-align: center;
-  margin-top: 7%;
+  margin-top: 3%;
   padding: 0;
 }
 
 .ul-education {
-  list-style: circle;
-}
-
-.grid-education {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: rgba(51, 41, 58, 0.02);
-  border-radius: 15px;
-  padding: 2%;
-  padding-left: 15%;
+  list-style: none;
   text-align: left;
+  padding-left: 100px;
 }
 
 .education h4 {
@@ -158,36 +124,12 @@ hr {
 
 }
 
-.education3 {
-  padding-left: 60%;
-}
-
 
 .link {
   text-decoration: none;
 }
 
 /*---------------------------Portfolio---------------------------*/
-/*---------------------------Project 1------------------------*/
-
-.container-fluid {
-  padding: 5% 15%;
-  text-align: center;
-}
-
-.project-2 {
-  text-align: left;
-}
-
-.grid-project {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 20%;
-  margin-right: 10%;
-  justify-items: center;
-  padding-top: 5%;
-  justify-items: center;
-}
 
 /*----Små pluttarna (HTML, JS)----*/
 .code {
@@ -212,37 +154,52 @@ hr {
   opacity: 0.8;
 }
 
-/*-------------------Project 2------------------------*/
+/*---------------------------Project 1------------------------*/
 
-.project2-1 {
+.project-over {
+  text-align: center;
+  margin-top: 7%;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+#project-1 {
   text-align: left;
 }
 
-.grid-project2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 20%;
-  margin-right: 10%;
-  justify-items: center;
-  padding-top: 15%;
-}
-
-/*---------------------Project 3---------------------------*/
-
-.project3-1 {
+#project-2 {
   text-align: left;
 }
 
-.grid-project3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 20%;
-  margin-right: 10%;
-  justify-items: center;
-  padding-top: 15%;
+#project-3 {
+  text-align: left;
 }
 
-/*-------------------Contact-------------------------------*/
+.imgBox {
+  margin: 7% 5%;
+  height: 250px;
+
+}
+
+/*--------Contact------------*/
+
+#contact {
+  background-image: url("/img/headerpur3.jpg");
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  border-radius: 15px;
+  margin: 5% auto;
+  width: 80%;
+  margin-bottom: 2%;
+  padding: 2% 15%;
+  align-items: center;
+  justify-content: center;
+}
 
 .contactinfo {
   text-align: center;
@@ -251,58 +208,54 @@ hr {
 }
 
 .hr-contact {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: 5% 20%;
   height: 1px;
   background-color: white;
   background-image: none;
   opacity: 0.5;
 }
 
-.contactinfo2 {
-  width: 100%;
-
+.contactinfo-ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.contactinfo2 p {
-  padding-left: 2%;
+
+.contactinfo-ul i {
+  padding-top: 3px;
+  padding-right: 7px
 }
 
-.contactinfo3 {
+.contactinfo-li {
   list-style-type: none;
   color: white;
   overflow: hidden;
   display: flex;
-  padding: 1%;
+  font-size: 20px;
+  text-align: center;
+  min-width: 300px;
 }
 
 .contact-icons {
   list-style-type: none;
   overflow: hidden;
-  display: flex;
   color: white;
   text-align: center;
-  justify-content: center;
-  padding-right: 20%;
+  font-size: 34px;
+  padding: 0;
+
+}
+
+a,
+a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .contact-icons a:hover {
   background-color: transparent;
-}
-
-.grid-contact {
-  display: grid;
-  background-image: url("/img/headerpur3.jpg");
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  border-radius: 15px;
-  margin: 10%;
-  grid-template-columns: 1fr 1fr;
-  text-align: center;
-  justify-items: center;
-  padding-left: 25%;
-  margin-bottom: 3%;
 }
 
 footer {
@@ -332,15 +285,21 @@ footer {
     font-size: 12px;
   }
 
-  .contactinfo3 img {
-    height: 38px;
-    text-align: left;
-    justify-items: left;
+  .imgBox {
+    width: 100%;
+    height: 175px;
+    margin-top: 10px;
+    margin-left: 0;
   }
 
-  .contactinfo3 {
-    font-size: 12px;
-    text-align: left;
+  #contact h2,
+  #contact h3 {
+    font-size: 24px;
+  }
+
+  .contactinfo-li {
+    font-size: 16px;
+    padding-left: 40px;
   }
 
   footer {
