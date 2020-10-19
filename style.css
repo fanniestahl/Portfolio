@@ -8,6 +8,7 @@ body {
   color: black;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 /*---------------------------------Header--------------------------*/
@@ -67,7 +68,7 @@ hr {
 }
 
 #about-text {
-  background-color: rgba(183, 163, 253, 0.1);
+  background-color: rgba(183, 163, 253, 0.05);
   border-radius: 0 15% 15% 0;
   padding: 5%;
 }
@@ -99,16 +100,29 @@ hr {
 
 /*------------Education-------*/
 
+#education-box {
+  background-color: rgba(183, 163, 253, 0.05);
+}
+
+h4 {
+  font-weight: bold;
+}
+
+#h4-pad {
+  padding-top: 3%;
+}
+
 .education-over {
   text-align: center;
   margin-top: 3%;
   padding: 0;
+
 }
 
 .ul-education {
-  list-style: none;
+  /* list-style: none; */
   text-align: left;
-  padding-left: 100px;
+  padding-top: 2%;
 }
 
 .education h4 {
