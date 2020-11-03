@@ -60,6 +60,7 @@ hr {
   margin-left: 35%;
   margin-right: 35%;
   background-image: url("img/headerpur3.jpg");
+  background-color: rgb(183, 163, 253);
   height: 3px;
   border: none;
   background-repeat: no-repeat;
@@ -215,6 +216,7 @@ h4 {
 
 #contact {
   background-image: url("img/headerpur3.jpg");
+  background-color: rgb(183, 163, 253);
   background-repeat: no-repeat;
   /* Do not repeat the image */
   background-size: cover;
