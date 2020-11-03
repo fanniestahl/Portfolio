@@ -199,8 +199,15 @@ h4 {
 }
 
 .imgBox {
-  margin: 16% 10%;
-  height: 210px;
+  margin: 30px 1%;
+  height: 250px;
+  text-align: center;
+
+}
+
+.imgBox2 {
+  margin: 75px 1%;
+  height: 250px;
   text-align: center;
 
 }
@@ -309,6 +316,11 @@ footer {
   /* About*/
   #about-image {
     border-radius: 10% 10% 0 0;
+  }
+
+  .Fannie {
+    height: 120px;
+    width: 120px;
   }
 
   #about-text {
