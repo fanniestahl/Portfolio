@@ -2,6 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.overflow {
+  padding: 0 !important;
+  overflow: hidden !important;
+
+}
+
 body {
   background-color: rgba(243, 230, 255, 0.3);
   width: 100%;
@@ -9,6 +15,7 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  overflow-block: hidden;
 }
 
 /*---------------------------------Header--------------------------*/
@@ -102,40 +109,32 @@ hr {
 
 #education-box {
   background-color: rgba(183, 163, 253, 0.05);
-}
-
-h4 {
-  font-weight: bold;
-}
-
-#h4-pad {
-  padding-top: 3%;
+  padding-top: 0;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10%;
+  text-align: center;
 }
 
 .education-over {
   text-align: center;
-  margin-top: 3%;
-  padding: 0;
+  padding: 5% 0;
 
 }
+
+
+.education-hr {
+  background-color: rgb(67, 33, 90);
+  background-image: none;
+  margin: 5% 20%;
+  padding: 0;
+  height: 1px;
+}
+
 
 .ul-education {
-  /* list-style: none; */
-  text-align: left;
-  padding-top: 2%;
-}
-
-.education h4 {
-  color: rgb(67, 33, 90);
-}
-
-.education2 h4 {
-  color: rgb(67, 33, 90);
-}
-
-.education3 h4 {
-  color: rgb(67, 33, 90);
-
+  list-style: none;
+  text-align: center;
 }
 
 
@@ -155,30 +154,29 @@ h4 {
   font-size: 12px;
 }
 
+h4 {
+  font-weight: bold;
+  color: rgb(67, 33, 90);
+  padding-bottom: 0;
+}
+
 .business {
   color: rgb(123, 70, 158);
   padding: 0;
   margin: 0;
 }
 
-.imgBox:hover {
-  -moz-box-shadow: 0 0 20px rgb(0, 0, 0);
-  -webkit-box-shadow: 0 0 20px rgb(0, 0, 0);
-  box-shadow: 0 0 20px rgb(123, 70, 158);
-  opacity: 0.8;
-}
 
 /*---------------------------Project 1------------------------*/
 
 .project-over {
   text-align: center;
-  margin-top: 7%;
+  margin-top: 5%;
   padding: 0;
 }
 
 .container-fluid {
-  padding: 5% 15%;
-  text-align: center;
+  padding: 5% 20%;
 }
 
 #project-1 {
@@ -194,9 +192,17 @@ h4 {
 }
 
 .imgBox {
-  margin: 7% 5%;
-  height: 250px;
+  margin: 10% 5%;
+  height: 210px;
+  text-align: center;
 
+}
+
+.imgBox:hover {
+  -moz-box-shadow: 0 0 20px rgb(0, 0, 0);
+  -webkit-box-shadow: 0 0 20px rgb(0, 0, 0);
+  box-shadow: 0 0 20px rgb(123, 70, 158);
+  opacity: 0.8;
 }
 
 /*--------Contact------------*/
@@ -278,10 +284,21 @@ footer {
 }
 
 @media (max-width:900px) {
+  body {
+    width: 100%;
+  }
+
   header {
     width: 100%;
   }
 
+
+  nav {
+    font-size: 12px;
+  }
+
+
+  /* About*/
   #about-image {
     border-radius: 10% 10% 0 0;
   }
@@ -295,16 +312,32 @@ footer {
     margin-right: 20%;
   }
 
-  nav {
-    font-size: 12px;
+  /*Education*/
+
+  .education-box {
+    padding: 1%;
+
   }
 
+  .ul-education {
+    padding-bottom: 10%;
+  }
+
+  h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Porfolio*/
   .imgBox {
     width: 100%;
-    height: 175px;
+    height: 100px;
     margin-top: 10px;
     margin-left: 0;
   }
+
+
+  /*Contact*/
 
   #contact h2,
   #contact h3 {
