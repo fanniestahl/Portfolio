@@ -199,20 +199,21 @@ h4 {
 }
 
 .imgBox {
-  margin: 30px 1%;
+  margin: 20px 1%;
   height: 250px;
   text-align: center;
 
 }
 
 .imgBox2 {
-  margin: 100px 1%;
+  margin: 60px 1%;
   height: 250px;
   text-align: center;
 
 }
 
-.imgBox:hover {
+.imgBox:hover,
+.imgBox2:hover {
   -moz-box-shadow: 0 0 20px rgb(0, 0, 0);
   -webkit-box-shadow: 0 0 20px rgb(0, 0, 0);
   box-shadow: 0 0 20px rgb(123, 70, 158);
