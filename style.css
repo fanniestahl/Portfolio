@@ -40,6 +40,9 @@ li a:hover {
 }
 
 /*-----------------------------------About Me---------------------------*/
+#about-box {
+  padding: 50px 15%;
+}
 
 h1 {
   font-size: 38px;
@@ -50,10 +53,6 @@ h1 {
   padding-top: 5%;
 }
 
-.contact-btn {
-  margin-top: 25%;
-  ;
-}
 
 /*-----För alla hr-----*/
 hr {
@@ -69,35 +68,17 @@ hr {
   opacity: 0.6;
 }
 
-#about-image {
-  background-color: rgb(183, 163, 253);
-  border-radius: 15% 0 0 15%;
-  padding: 5% 0;
-  text-align: center;
-  background-image: url("img/headerpur3.jpg");
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  font-size: 18px;
-}
-
 #about-text {
-  background-color: rgba(183, 163, 253, 0.05);
-  border-radius: 0 15% 15% 0;
   padding: 5%;
 }
 
-.contact {
-  border: 2px solid white;
-  border-radius: 50px;
-  color: white;
-  padding: 2%;
-  font-size: 18px;
+.container-img {
+  text-align: center;
 }
 
 .Fannie {
-  border-radius: 50%;
-  margin-bottom: 1%;
+  border-radius: 15%;
+  width: 250px;
 }
 
 .purpl-h2 {
@@ -133,7 +114,7 @@ hr {
 .education-hr {
   background-color: rgb(67, 33, 90);
   background-image: none;
-  margin: 5% 20%;
+  margin: 20px 20%;
   padding: 0;
   height: 1px;
 }
@@ -142,6 +123,7 @@ hr {
 .ul-education {
   list-style: none;
   text-align: center;
+  padding-left: 0;
 }
 
 
@@ -161,6 +143,7 @@ hr {
   font-size: 12px;
 }
 
+
 h4 {
   font-weight: bold;
   color: rgb(67, 33, 90);
@@ -174,7 +157,7 @@ h4 {
 }
 
 
-/*---------------------------Project 1------------------------*/
+/*---------------------------Projects------------------------*/
 
 .project-over {
   text-align: center;
@@ -182,19 +165,38 @@ h4 {
   padding: 0;
 }
 
+.icons {
+  margin-left: 40%;
+  margin-right: 40%;
+  height: 1px;
+  color: rgb(176, 117, 215);
+  border: none;
+  opacity: 0.6;
+}
+
+.project-icons {
+  text-align: center;
+  padding-top: 30px
+}
+
+.project-icon {
+  color: rgb(67, 33, 90);
+  size: 1rem;
+}
+
 .container-fluid {
   padding: 5% 20%;
 }
 
-#project-1 {
+#project-2d {
   text-align: left;
 }
 
-#project-2 {
+#project-monkey {
   text-align: left;
 }
 
-#project-3 {
+#project-mmc {
   text-align: left;
 }
 
@@ -325,8 +327,7 @@ footer {
   }
 
   .Fannie {
-    height: 120px;
-    width: 120px;
+    height: 300px;
   }
 
   #about-text {
@@ -347,6 +348,8 @@ footer {
 
   .ul-education {
     padding-bottom: 10%;
+    margin-left: 0;
+    padding-left: 0;
   }
 
   h4 {
