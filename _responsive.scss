@@ -1,0 +1,134 @@
+@media (min-width:1400px) {
+    .portfolio {
+        &-projects {
+            margin-left: 15vw;
+            margin-right: 15vw;
+        }
+
+        &-graphics {
+            margin-left: 3vw;
+            margin-right: 3vw;
+
+            img {
+                height: 600px;
+            }
+        }
+
+        &-box-big {
+            margin: 13vw 0;
+        }
+
+        &-logo-box-info {
+            margin-left: 15vw;
+            margin-right: 15vw;
+        }
+
+    }
+
+    .about {
+        margin-left: 9vw;
+        margin-right: 9vw;
+        margin-bottom: 9vw;
+    }
+
+    .education {
+        padding: 9vw 0;
+
+        &-box {
+            padding-top: 3vw;
+        }
+    }
+
+    .contact {
+        padding: 5vw 0;
+        margin-left: 9vw;
+        margin-right: 9vw;
+    }
+
+}
+
+@media (max-width:1200px) {
+
+    .portfolio {
+        margin: 0;
+        padding: 0;
+
+        &-projects {
+            margin: 0;
+            padding: 5vw 0;
+
+            img {
+                width: 400px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+
+        }
+
+        &-graphics {
+            img {
+                height: 300px;
+            }
+        }
+    }
+
+    .education-box-head {
+        h2 {
+            font-size: 16px;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+    }
+
+    .education-box-text {
+        li {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width:992px) {
+
+    .navbar {
+        h1 {
+            font-size: 20px;
+        }
+
+        li {
+            font-size: 15px;
+        }
+
+    }
+
+    .portfolio {
+        padding-top: 3vw;
+
+        h1 {
+            font-size: 24px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        &-projects {
+            flex-direction: column;
+            margin: 1vw;
+
+            &-info {
+                padding-bottom: 3vw;
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+
+}

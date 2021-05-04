@@ -1,0 +1,75 @@
+.contact {
+    background-image: url(/img/gradient2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 0 5vw;
+    padding: 2vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &-line {
+        background-color: $lightmauve;
+        height: 2px;
+        border: none;
+        width: 300px;
+    }
+
+    &-info {
+
+        text-align: center;
+        padding-top: 0;
+        margin-top: 0;
+        margin-left: 0;
+        padding-left: 0;
+        align-items: center;
+        flex-direction: column;
+
+        li {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            text-decoration: none;
+            list-style: none;
+            font-weight: 600;
+
+            i {
+                color: $russianviolet;
+                font-size: 28px;
+            }
+
+            p {
+                padding-left: 1vw;
+            }
+        }
+    }
+
+    &-icons {
+        list-style-type: none;
+        color: $russianviolet;
+        font-size: 46px;
+        display: flex;
+        gap: 2vw;
+        align-items: center;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 0;
+
+        a:hover {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: $russianviolet;
+            text-decoration: none;
+        }
+
+        li {
+            text-decoration: none;
+        }
+    }
+}

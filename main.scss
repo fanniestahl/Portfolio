@@ -1,0 +1,20 @@
+@import "utilities";
+@import "menu";
+@import "about";
+@import "portfolio";
+@import "education";
+@import "contact";
+@import "responsive";
+
+$font: 'Montserrat',
+sans-serif;
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: $font;
+}

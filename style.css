@@ -20,7 +20,9 @@ body {
 
 /*---------------------------------Header--------------------------*/
 nav {
-  background-color: #333;
+  background-image: url(img/gradient2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   justify-content: space-between;
   font-size: 16px;
@@ -58,7 +60,7 @@ h1 {
 hr {
   margin-left: 35%;
   margin-right: 35%;
-  background-image: url("img/headerpur3.jpg");
+  background-image: url("img/gradient2.png");
   background-color: rgb(183, 163, 253);
   height: 3px;
   border: none;
@@ -227,7 +229,7 @@ h4 {
 /*--------Contact------------*/
 
 #contact {
-  background-image: url("img/headerpur3.jpg");
+  background-image: url("img/gradient2.png");
   background-color: rgb(183, 163, 253);
   background-repeat: no-repeat;
   /* Do not repeat the image */

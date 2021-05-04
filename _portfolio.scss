@@ -1,0 +1,139 @@
+.portfolio {
+    text-align: center;
+    padding-top: 25px;
+    color: $violet;
+
+    p {
+        font-weight: bold;
+    }
+
+    &-box {
+        padding-top: 40px;
+    }
+
+    h2 {
+        margin-top: 15px;
+    }
+
+
+
+    /*For the different projects*/
+    &-projects {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 5vw;
+
+
+        &-info {
+            text-align: left;
+            width: 50vw;
+            padding-left: 10vw;
+            padding-right: 1vw;
+
+            p {
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+
+            section {
+                h2 {
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+
+                .bubble {
+                    border: 1px solid $orchid;
+                    border-radius: 50px;
+                    width: 100%;
+                    color: $orchid;
+                    padding: 7px;
+                    font-size: 12px;
+                }
+
+                p {
+                    padding-bottom: 10px;
+                }
+
+            }
+        }
+
+        &-image {
+            width: 50vw;
+            padding-right: 10vw;
+
+            img {
+                width: 500px;
+
+                &:hover {
+                    -moz-box-shadow: 0 0 20px $russianviolet;
+                    -webkit-box-shadow: 0 0 20px $russianviolet;
+                    box-shadow: 0 0 20px $frenchviolet;
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+
+    /*For the different Graphics realted projects*/
+    &-graphics {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        &-box {
+            &-image {
+                img {
+                    height: 350px;
+
+                    &:hover {
+                        -moz-box-shadow: 0 0 20px $russianviolet;
+                        -webkit-box-shadow: 0 0 20px $russianviolet;
+                        box-shadow: 0 0 20px $frenchviolet;
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    /*For the different Logotype related projects*/
+    &-box-big {
+        margin-top: 100px;
+    }
+
+    &-logo {
+        margin: 3vw 10vw;
+
+        &-box-image {
+            width: 500px;
+            height: 195px;
+            position: relative;
+            display: inline-block;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+
+            .img-top {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+                padding-top: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            &:hover .img-top {
+                display: inline;
+                background-color: black;
+            }
+        }
+
+    }
+}

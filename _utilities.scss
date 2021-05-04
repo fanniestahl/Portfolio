@@ -1,0 +1,42 @@
+$russianviolet:#10002b;
+$violet:#240046;
+$indigo:#3c096c;
+$purple:#5a189a;
+$frenchviolet:#7b2cbf;
+$orchid:#9D4edd;
+$helio:#c77dff;
+$mauve:#e0aaff;
+$lightmauve:#f1d9ff;
+
+.line {
+    margin-left: 35vw;
+    margin-right: 35vw;
+    background-color: $helio;
+    height: 2px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio-line {
+    margin-left: 40vw;
+    margin-right: 40vw;
+    background-color: $mauve;
+    height: 1px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.project-icon {
+    color: $mauve;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+
+}
