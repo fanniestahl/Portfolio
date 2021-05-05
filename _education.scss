@@ -1,25 +1,28 @@
 .education {
-    padding: 2vw 0;
+    padding: 5vw;
     text-align: center;
     background-color: rgba($lightmauve, 0.3);
     margin-bottom: 5vw;
 
     &-box {
-        margin-top: 3vw;
+        margin: 3vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
 
-        &-head {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+        &-info {
 
             h3,
             h2 {
                 margin: 2px;
             }
-        }
 
-        &-line {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            h2 {
+                color: $russianviolet;
+            }
+
+            h3 {
+                color: $violet;
+            }
 
             hr {
                 width: 25vw;
@@ -27,11 +30,7 @@
                 height: 1px;
                 border: none;
             }
-        }
 
-        &-text {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
 
             ul {
                 text-align: center;
@@ -46,6 +45,9 @@
                 list-style: none;
                 font-weight: 600;
             }
+
         }
+
+
     }
 }

@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: white;
 
     &-line {
         background-color: $lightmauve;
@@ -39,6 +40,7 @@
             i {
                 color: $russianviolet;
                 font-size: 28px;
+                color: white;
             }
 
             p {
@@ -49,7 +51,7 @@
 
     &-icons {
         list-style-type: none;
-        color: $russianviolet;
+        color: white;
         font-size: 46px;
         display: flex;
         gap: 2vw;
@@ -58,13 +60,13 @@
         padding-left: 0;
         margin-top: 0;
 
-        a:hover {
+        a:visited {
             color: white;
             text-decoration: none;
         }
 
-        a:visited {
-            color: $russianviolet;
+        i:hover {
+            color: $lightmauve;
             text-decoration: none;
         }
 

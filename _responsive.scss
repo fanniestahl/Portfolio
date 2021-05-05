@@ -93,6 +93,26 @@
 
 @media (max-width:992px) {
 
+    .line {
+        margin-left: 30vw;
+        margin-right: 30vw;
+        background-color: $helio;
+        height: 2px;
+        border: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-line {
+        margin-left: 35vw;
+        margin-right: 35vw;
+        background-color: $mauve;
+        height: 1px;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
     .navbar {
         h1 {
             font-size: 20px;
@@ -128,6 +148,214 @@
                 padding-left: 0;
                 padding-right: 0;
             }
+
+            &-image {
+                padding-right: 0;
+            }
+        }
+
+        &-logo {
+            margin: 2vw 10vw;
+
+            &-box-image {
+                width: 400px;
+            }
+        }
+
+    }
+
+    .about {
+        &-info {
+            margin: 3vw 10vw;
+        }
+    }
+
+    .education {
+        &-box {
+            display: flex;
+            flex-direction: column;
+
+            &-info {
+                padding: 2vw 0;
+
+                h2 {
+                    font-size: 20px;
+                }
+
+                h3 {
+                    font-size: 18px;
+                }
+
+                li {
+                    font-size: 16px;
+                }
+
+                hr {
+                    width: 50vw;
+                    background-color: $lightmauve;
+                    height: 1px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:850px) {
+
+    .line {
+        margin-left: 25vw;
+        margin-right: 25vw;
+        background-color: $helio;
+        height: 2px;
+        border: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-line {
+        margin-left: 15vw;
+        margin-right: 15vw;
+        background-color: $mauve;
+        height: 1px;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        width: 100%;
+
+        h1 {
+            font-size: 14px;
+            padding-left: 5px;
+        }
+
+        ul {
+            padding-left: 0px;
+
+            li {
+                font-size: 12px;
+                padding: 5px;
+            }
+        }
+    }
+
+    .portfolio {
+        padding: 0 10vw;
+        padding-bottom: 0px !important;
+
+
+        h1 {
+            font-size: 22px;
+        }
+
+        &-projects {
+            margin: 0;
+
+            &-info {
+                padding: 0;
+                padding-bottom: 20px;
+                width: 100%;
+
+                p {
+                    font-size: 16px;
+                }
+            }
+
+            &-image {
+                padding-right: 0px;
+                width: 100%;
+
+                img {
+                    width: 300px;
+                }
+            }
+        }
+
+        &-graphics {
+            grid-template-columns: 1fr;
+            padding-bottom: 2px;
+            margin-bottom: 2px;
+
+            &-box {
+                padding-bottom: 6vw;
+
+                h2 {
+
+                    margin-bottom: 2vw;
+                }
+            }
+        }
+
+        &-box-big {
+            margin-top: 10vw;
+        }
+
+        &-logo {
+            padding-bottom: 20vw;
+            margin: 0px;
+
+            p {
+                font-size: 14px;
+            }
+
+            &-box-image {
+                width: 220px;
+                padding-left: 0px;
+            }
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .navbar {
+        width: 100%;
+
+        h1 {
+            font-size: 12px;
+            padding-left: 5px;
+        }
+
+        ul {
+            padding-left: 0px;
+
+            li {
+                font-size: 10px;
+                padding: 5px;
+            }
+        }
+    }
+
+    .portfolio {
+        &-projects {
+            &-info {
+                section {
+                    .bubble {
+                        border: 1px solid $orchid;
+                        border-radius: 50px;
+                        width: 100%;
+                        color: $orchid;
+                        padding: 4px;
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            &-image {
+                img {
+                    width: 240px;
+                }
+            }
+        }
+    }
+
+    .contact {
+        &-line {
+            background-color: $lightmauve;
+            height: 2px;
+            border: none;
+            width: 200px;
         }
     }
 
