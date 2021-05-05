@@ -185,7 +185,7 @@ footer {
   border: 1px solid #9D4edd;
   border-radius: 50px;
   width: 100%;
-  color: #9D4edd;
+  color: #10002b;
   padding: 7px;
   font-size: 12px;
 }
@@ -235,6 +235,7 @@ footer {
 }
 
 .portfolio-logo-box-image {
+  width: 750px;
   position: relative;
   display: inline-block;
   padding-top: 20px;
