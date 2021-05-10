@@ -687,10 +687,50 @@ footer {
 }
 
 .graphics {
+  font-weight: 600;
+  text-align: center;
+  padding: 0 4vw;
+}
+
+.graphics h1 {
+  font-size: 32px;
+}
+
+.graphics h2 {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.graphics p {
+  margin-top: 3vw;
+}
+
+.graphics-first img {
+  width: 50vw;
+}
+
+.graphics-box {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.graphics-box img {
+  width: 30vw;
+  padding: 1px;
+}
+
+.graphics-box-last {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.graphics-box-last img {
+  width: 45vw;
+  padding: 1px;
 }
 
 html {
