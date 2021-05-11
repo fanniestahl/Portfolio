@@ -261,7 +261,7 @@ footer {
 }
 
 .education {
-  padding: 5vw;
+  padding: 5vw 0;
   text-align: center;
   background-color: rgba(241, 217, 255, 0.3);
   margin-bottom: 5vw;
@@ -567,6 +567,9 @@ footer {
 }
 
 @media (max-width: 850px) {
+  body {
+    font-weight: 900;
+  }
   .line {
     margin-left: 25vw;
     margin-right: 25vw;
@@ -707,7 +710,7 @@ footer {
 }
 
 .graphics-background {
-  background-image: url(/img/gradient2.png);
+  background-image: url(img/gradient2.png);
 }
 
 .graphics-first img {
