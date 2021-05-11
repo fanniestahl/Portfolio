@@ -772,6 +772,33 @@ footer {
   padding: 1vw;
 }
 
+.graphics-bit-first {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 4vw;
+}
+
+.graphics-bit-first img {
+  width: 40vw;
+  padding: 1vw;
+}
+
+.graphics-bit {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 4vw;
+}
+
+.graphics-bit img {
+  width: 20vw;
+}
+
 html {
   scroll-behavior: smooth;
 }

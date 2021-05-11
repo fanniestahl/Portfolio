@@ -70,4 +70,26 @@
             padding: 1vw;
         }
     }
+
+    &-bit-first {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 4vw;
+
+        img {
+            width: 40vw;
+            padding: 1vw;
+        }
+    }
+
+    &-bit {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 4vw;
+
+        img {
+            width: 20vw;
+        }
+    }
 }
