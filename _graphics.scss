@@ -1,10 +1,11 @@
 .graphics {
     font-weight: 600;
     text-align: center;
-    padding: 0 4vw;
 
     h1 {
         font-size: 32px;
+        margin: 0 !important;
+        padding: 10px;
     }
 
     h2 {
@@ -14,6 +15,10 @@
 
     p {
         margin-top: 3vw;
+    }
+
+    &-background {
+        background-image: url(/img/gradient2.png);
     }
 
     &-first {
@@ -26,6 +31,7 @@
     &-box {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 4vw;
 
         img {
             width: 30vw;
@@ -46,6 +52,7 @@
     &-church {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 4vw;
 
         img {
             width: 20vw;
